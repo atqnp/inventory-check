@@ -182,7 +182,7 @@ def check_row_ratings(responses, row):
 
 def main():
     st.title("Interest Inventory")
-    st.write("Letakkan 'rating' (1-6) bagi setiap aktivit yang menghuraikan diri anda:")
+    st.write("Letakkan 'rating' (1-6) bagi setiap aktiviti yang menghuraikan diri anda:")
     
     # Initialize Google Sheets
     sheet = init_google_sheets()
